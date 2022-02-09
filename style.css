@@ -1,0 +1,80 @@
+:root {
+    --std-background: white;
+    --std-border: 3px solid black;
+    --std-border2: 3px solid gray;
+    --std-padding: 20px 45px;
+    --std-border-radius: 10px 10px 10px 10px;
+}
+
+
+#button1 {
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: var(--std-padding);
+    background-color: transparent;
+    border-radius:var(--std-border-radius);  
+}
+
+#button1:hover {
+    -ms-transform: scale(1.0); 
+    -webkit-transform: scale(1.0); 
+    transform: scale(1.2); 
+}
+
+#button2 {
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: var(--std-padding);
+    border: var(--std-border2);
+    background: var(--std-background);
+    border-radius:var(--std-border-radius);
+}
+
+
+#button3 {
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: var(--std-padding);
+    border: var(--std-border);
+    background: var(--std-background);
+    border-radius:var(--std-border-radius);
+    
+}
+
+/*#button3:hover {
+    background-color: #f44336;
+    color: white;
+}*/
+
+#button4 {
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: var(--std-padding);
+    border: var(--std-border);
+    background-color: transparent;
+    border-radius:var(--std-border-radius);
+}
+
+#button5 {
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: var(--std-padding);
+    border: var(--std-border2);
+    background-color: transparent;
+    border-radius:var(--std-border-radius);
+}
+
+#button6 {
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: var(--std-padding);
+    border: var(--std-border);
+    background-color: transparent;
+    border-radius:var(--std-border-radius);
+}
