@@ -1,3 +1,11 @@
+.spazio {
+    height: 100px;
+    width: 100px;
+    color: red;
+}
+
+
+
 :root {
     --std-background: white;
     --std-border: 3px solid black;
